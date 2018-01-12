@@ -18,8 +18,6 @@ class Solution(object):
                 num = int(n/26**(power-1))
             if (num > 0):
                 dnum = num
-                #if (n%26**(power-1) == 0):
-                    #dnum -= 1
                 if (1):
                     if (dnum == 1):
                         result += 'A'
